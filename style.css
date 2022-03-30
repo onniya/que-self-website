@@ -1,0 +1,37 @@
+/*body {background-image:linear-gradient(#c2e59c,#64b3f4);}
+*/
+header{
+  font-size: 40px;
+  margin:0;
+  padding: 18px;
+  border-bottom: 1px solid gray;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+header nav ul{
+  display: flex;
+  text-align: center;
+}
+header nav li{
+  list-style:none;
+  float: left;
+  padding: 30px 105px;
+  @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+  font-family: 'KoPub Batang', serif;
+}
+header h4{
+  float:left;
+  display:inline;
+  margin:30px 108px;
+  @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+  font-family: 'KoPub Batang', serif;
+  }
+
+.menu{
+  word-spacing: 100px;
+  float: center;
+  margin: 0px;
+}
+  }

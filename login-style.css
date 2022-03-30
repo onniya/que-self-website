@@ -1,0 +1,31 @@
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a{
+  color: black;
+  font-size: 50px;
+  text-decoration: none;
+  @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+  font-family: 'KoPub Batang', serif;
+}
+.biglo{
+  text-align: center;
+  padding: 40px;
+}
+.putting{
+  border: 1px solid blue;
+  text-align: center;
+  box-sizing: content-box;
+  width: 400px;
+  height: 200px;
+}
+
+.mybu{
+  display: block;
+  margin: auto;
+}
