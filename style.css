@@ -1,18 +1,23 @@
-/*body {background-image:linear-gradient(#c2e59c,#64b3f4);}
+/**{
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
 */
 header{
   font-size: 40px;
   margin:0;
   padding: 18px;
   border-bottom: 1px solid gray;
+  background: none;
 }
 a{
   text-decoration: none;
   color:black;
+  background: none;
 }
 header nav ul{
   display: flex;
   text-align: center;
+  background: none;
 }
 header nav li{
   list-style:none;
@@ -20,6 +25,7 @@ header nav li{
   padding: 30px 105px;
   @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
   font-family: 'KoPub Batang', serif;
+  background: none;
 }
 header h4{
   float:left;
@@ -27,11 +33,13 @@ header h4{
   margin:30px 108px;
   @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
   font-family: 'KoPub Batang', serif;
+  background: none;
   }
 
 .menu{
   word-spacing: 100px;
   float: center;
   margin: 0px;
+  background: none;
 }
   }

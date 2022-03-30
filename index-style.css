@@ -1,0 +1,50 @@
+#grid{
+  display: grid;
+  grid-template-columns: auto auto 100px;
+  height: 0
+}
+.nemo{
+  position:relative;
+  left:1595px;
+  top: -40px;
+  display: grid;
+  grid-template-columns:70px 70px;
+  grid-column-gap:10px;
+  width:200px;
+  height:25px;
+  text-align:center;
+  margin:0;
+  background: none;
+}
+
+
+.qu{
+    font-size:65px;
+    text-align: right;
+    position: relative;
+    top: 325px;
+    padding:0 50px;
+    @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+    font-family: 'KoPub Batang', serif;
+    background: none;
+}
+.ment{
+  font-size: 60px;
+  text-align: left;
+  padding:0 50px;
+  position: relative;
+  top:250px;
+  @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+  font-family: 'KoPub Batang', serif;
+  background: none;
+}
+
+  .plusment{
+    font-size: 55px;
+    border-top: 1px solid gray;
+    text-align: center;
+    position:relative;
+    top: 750px;
+    padding:200px;
+    background: none;
+  }
