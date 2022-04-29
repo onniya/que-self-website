@@ -2,44 +2,32 @@
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 */
-header{
+
+.header{
   font-size: 40px;
+  text-align: center;
   margin:0;
   padding: 18px;
   border-bottom: 1px solid gray;
   background: none;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  @import url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff);
+  font-family: 'locus_sangsang';
 }
 a{
   text-decoration: none;
   color:black;
   background: none;
 }
+h4{
+  margin: 0;
+}
 header nav ul{
-  display: flex;
-  text-align: center;
-  background: none;
+  margin: 0;
 }
 header nav li{
   list-style:none;
   float: left;
-  padding: 30px 105px;
-  @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
-  font-family: 'KoPub Batang', serif;
-  background: none;
+  padding:1.5% 7%;
 }
-header h4{
-  float:left;
-  display:inline;
-  margin:30px 108px;
-  @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
-  font-family: 'KoPub Batang', serif;
-  background: none;
-  }
-
-.menu{
-  word-spacing: 100px;
-  float: center;
-  margin: 0px;
-  background: none;
-}
-  }

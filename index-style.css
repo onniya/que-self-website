@@ -1,41 +1,35 @@
-#grid{
-  display: grid;
-  grid-template-columns: auto auto 100px;
-  height: 0
-}
-.nemo{
-  position:relative;
-  left:1595px;
-  top: -40px;
-  display: grid;
-  grid-template-columns:70px 70px;
-  grid-column-gap:10px;
-  width:200px;
-  height:25px;
-  text-align:center;
-  margin:0;
+.log_sig{
+  position: relative;
+  top: 5px;
+  left:1400px;
   background: none;
 }
 
+.log_sig a, div.button{
+    padding: 0 15px;
+}
 
-.qu{
+.ment0{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+  font-family: 'KoPub Batang', serif;
+}
+
+.ment1{
     font-size:65px;
     text-align: right;
     position: relative;
     top: 325px;
     padding:0 50px;
-    @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
-    font-family: 'KoPub Batang', serif;
     background: none;
 }
-.ment{
+.ment2{
   font-size: 60px;
   text-align: left;
   padding:0 50px;
   position: relative;
   top:250px;
-  @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
-  font-family: 'KoPub Batang', serif;
   background: none;
 }
 
