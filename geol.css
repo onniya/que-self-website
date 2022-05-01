@@ -1,0 +1,28 @@
+.myinfo{
+  position: absolute;
+  width:200px;
+  height: 500px;
+  top: 150px;
+  left: 300px;
+  border: 2px solid gray;
+  text-align: center;
+
+}
+.myinfo p{
+  color: #FFD36E;
+}
+.myinfo a{
+  text-decoration: none;
+  color: black;
+}
+.text-list{
+  position: absolute;
+  width: 1000px;
+  height: 100%;
+  top: 150px;
+  left: 600px;
+  border: 2px solid gray;
+}
+.text-up-list{
+  padding: 25px;
+}

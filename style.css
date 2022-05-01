@@ -2,27 +2,64 @@
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 */
+/*  @import url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff);
+  font-family: 'locus_sangsang'; */
+
+.log_sig{
+  position: relative;
+  top: 5px;
+  left:1400px;
+  width:22%;
+  height: 10%;
+  margin: 10px 0;
+  background: none;
+}
+
+
+.log_sig1{
+  border: 1px solid  #D8D6D6;
+  border-radius: 5px;
+  margin: 6px;
+  padding: 3px;
+  text-decoration: none;
+  color:black;
+}
+
+.search{
+  margin-left:15px;
+  border: 1px solid  #D8D6D6;
+  border-radius: 10px;
+  padding: 5px 8px;
+
+}
+.btn{
+  cursor:pointer;
+  background: #FFD36E;
+  border:none;
+}
 
 .header{
-  font-size: 40px;
   text-align: center;
-  margin:0;
-  padding: 18px;
+  margin:0 15%;
   border-bottom: 1px solid gray;
-  background: none;
   display: grid;
-  grid-template-columns: 1fr 5fr;
-  @import url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff);
-  font-family: 'locus_sangsang';
+  grid-template-columns: repeat(5, 1fr);
 }
-a{
+
+.logo{
+  color:#FFD36E !important;
+  /*font-size: 2.5vw !important;*/
+}
+.header a{
+  font-size: 30px;
   text-decoration: none;
+  padding:6%;
   color:black;
   background: none;
 }
-h4{
-  margin: 0;
-}
+
+
+/*
 header nav ul{
   margin: 0;
 }

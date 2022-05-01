@@ -1,8 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
-  font-family: 'KoPub Batang', serif;
 }
 
 /*
@@ -13,32 +11,47 @@ body {
 
 .joinForm {
   position:absolute;
-  width:400px;
-  height:400px;
+  width:500px;
+  height:750px;
   padding: 30px, 20px;
   background-color:#FFFFFF;
   text-align:center;
-  top:30%;
+  top:40%;
   left:50%;
   transform: translate(-50%,-50%);
   border-radius: 15px;
 }
 
-.joinForm a {
+.joinForm h1 {
+  border-bottom: 1px solid #D8D6D6;
+  width: 90%;
+  padding: 20px;
+}
+.joinForm a{
   text-align: center;
   text-decoration: none;
-  color:black;
-  font-size: 30px;
+  color:#FFD36E;
+  font-size: 50px;
   font-weight: bold;
-  margin: 30px;
+}
+
+.sub_title{
+  padding: 30px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .textForm {
-  border-bottom: 2px solid #adadad;
-  margin: 30px;
+  border: 2px solid #D8D6D6;
+  margin: 10px 30px;
   padding: 10px 10px;
 }
-
+.textForm_ment{
+  text-align: left;
+  margin: 0 30px;
+  padding-top: 20px;
+}
 
 .id {
   width: 100%;
@@ -90,43 +103,22 @@ body {
   background: none;
 }
 
-.cellphoneNo {
-  width: 100%;
-  border:none;
-  outline:none;
-  color: #636e72;
-  font-size:16px;
-  height:25px;
-  background: none;
+.gender_M, .gender_W{
+  padding: 0 50px;
 }
-.birthday {
-  width: 100%;
-  border:none;
-  outline:none;
-  color: #636e72;
-  font-size:16px;
-  height:25px;
-  background: none;
-}
+
 
 .btn {
   position:relative;
-  left:40%;
+  left:45%;
   transform: translateX(-50%);
-  margin-bottom: 40px;
-  width:80%;
-  height:40px;
-  background: linear-gradient(125deg,#ffecd2,#fcb69f);
-  background-position: left;
-  background-size: 200%;
+  margin: 40px 0;
+  width:90%;
+  height:50px;
+  background: #FFD36E;
   color:white;
-  font-weight: bold;
+  font-size: 20px;
   border:none;
   cursor:pointer;
-  transition: 0.4s;
   display:inline;
-}
-
-.btn:hover {
-  background-position: right;
 }

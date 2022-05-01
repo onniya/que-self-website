@@ -1,44 +1,66 @@
-.log_sig{
-  position: relative;
-  top: 5px;
-  left:1400px;
-  background: none;
+/*@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+font-family: 'KoPub Batang', serif;*/
+*{
+  margin: 0;
+  padding: 0px;
+}
+.ment1, .ment2, .ment3{
+  width: 100%;
+  height: 750px;
+}
+.ment1{background-color: #FFF6DF;}
+.ment2{background-color: #FFFFFF;}
+.ment3{background-color: #F9E4B5;}
+
+.mentp1{
+  position: absolute;
+  top: 450px;
+  left: 350px;
+  width: 500px;
+  height: 400px;
+  margin: 0;
+  text-align: center;
+  line-height: 45px;
+  font-size: 30px;
 }
 
-.log_sig a, div.button{
-    padding: 0 15px;
+.mentp2{
+  position: absolute;
+  top: 1150px;
+  left: 950px;
+  width: 500px;
+  height: 400px;
+  margin: 0;
+  text-align: center;
+  line-height: 45px;
+  font-size: 30px;
 }
 
-.ment0{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
-  font-family: 'KoPub Batang', serif;
+.mentp3{
+  position: absolute;
+  top: 1950px;
+  left: 350px;
+  width: 500px;
+  height: 400px;
+  margin: 0;
+  text-align: center;
+  line-height: 45px;
+  font-size: 30px;
+}
+.pic3{
+  position: absolute;
+  top: 1700px;
+  left: 950px;
 }
 
-.ment1{
-    font-size:65px;
-    text-align: right;
-    position: relative;
-    top: 325px;
-    padding:0 50px;
-    background: none;
+footer{
+  text-align: center;
+  margin: 20px 0 ;
 }
-.ment2{
-  font-size: 60px;
-  text-align: left;
-  padding:0 50px;
-  position: relative;
-  top:250px;
-  background: none;
+footer a{
+  text-decoration: none;
+  color: black;
 }
-
-  .plusment{
-    font-size: 55px;
-    border-top: 1px solid gray;
-    text-align: center;
-    position:relative;
-    top: 750px;
-    padding:200px;
-    background: none;
-  }
+.footer_info{
+  padding: 0 7px;
+}
