@@ -9,8 +9,8 @@
   position: relative;
   top: 5px;
   left:1400px;
-  width:22%;
-  height: 10%;
+  width:450px;
+  height: 30px;
   margin: 10px 0;
   background: none;
 }
@@ -40,7 +40,7 @@
 
 .header{
   text-align: center;
-  margin:0 15%;
+  margin:0 280px;
   border-bottom: 1px solid gray;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -53,7 +53,7 @@
 .header a{
   font-size: 30px;
   text-decoration: none;
-  padding:6%;
+  padding:20px;
   color:black;
   background: none;
 }
