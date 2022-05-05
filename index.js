@@ -1,11 +1,7 @@
-//const loginBtn = document.querySelector(".log_sig1");
-const loginForm = document.querySelector(".loginform");
-const idInput = document.querySelector(".textform input");
-const pwInput = document.querySelector(".textform input");
-//const greeting = document.querySelector("greeting");
+const loginForm = document.querySelector("#loginform");
+const idInput = document.querySelector("#text-form input");
+const pwInput = document.querySelector("#text-form input");
 
-
-//const HIDDEN_CLASSNAME ="hidden";
 const USERID_KEY = "userId";
 const USERPW_KEY = "userPw";
 
@@ -18,6 +14,14 @@ function onLoginSubmit(event){
   window.location.href = "index.html";
 }
 
+const savedUserId = localStorage.getItem(USERID_KEY);
+const savedUserPw = localStorage.getItem(USERPW_KEY);
+
+if(savedUserId === null || savedUserPw === null){
+  loginForm.addEventListener("submit", onLoginSubmit);
+} else{
+  window.location.href = "index.html";
+}
 
 /*
 function showGreetings(userId){

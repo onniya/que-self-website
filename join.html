@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="joinstyle.css">
   </head>
   <body>
-    <div class="joinForm">
+    <div id="joinForm">
     <h1><a href="index.html">물음표</a></h1>
     <p class="sub_title">회원정보 입력</p>
-
+    <form id="realform">
     <p class="textForm_ment">아이디 (10자 이하)</p>
     <div class="textForm">
       <input name="loginId" type="text" maxlength="10" class="id" placeholder="아이디를 입력해 주세요">
@@ -34,13 +34,9 @@
     <div class="textForm">
       <input name="nickname" type="text" class="nickname" autocomplete="off" ﻿maxlength="10" placeholder="닉네임을 입력해 주세요">
     </div>
-    <p class="textForm_ment">성별</p>
-    <div class="textForm">
-      <span class="gender_M"><input name="gender" type="radio" value="M"> 남자</span>
-      <span class="gender_W"><input name="gender" type="radio" value="W"> 여자</span>
-    </div>
-
       <input type="submit" class="btn" value="가입하기"/>
     </div>
+  </form>
+    <script>"join.js"</script>
   </body>
 </html>

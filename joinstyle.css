@@ -9,7 +9,7 @@ body {
 }
 */
 
-.joinForm {
+#joinForm {
   position:absolute;
   width:500px;
   height:750px;
@@ -22,12 +22,12 @@ body {
   border-radius: 15px;
 }
 
-.joinForm h1 {
+#joinForm h1 {
   border-bottom: 1px solid #D8D6D6;
   width: 90%;
   padding: 20px;
 }
-.joinForm a{
+#joinForm a{
   text-align: center;
   text-decoration: none;
   color:#FFD36E;
